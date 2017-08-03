@@ -8,7 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint --type-check",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "scss-lint": "scss-lint",
+    "precommit": "npm run lint && npm run scss-lint"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +35,7 @@
     "@types/jasminewd2": "ts2.4",
     "@types/node": "ts2.4",
     "codelyzer": "~3.1.2",
+    "husky": "^0.14.3",
     "jasmine-core": "~2.7.0",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
