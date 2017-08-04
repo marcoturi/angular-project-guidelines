@@ -79,6 +79,7 @@ In the following section will be discussed only lint rules that normally Tslint 
 Angular styleguide suggests to:
  - Name constants in lowercase
  - Avoid prefixing private methods with an underscare
+
 I think that those are opinable choices. If you want in future re-use you code in an application in vanilla Javascript or viceversa use vanilla code in your app, you'll have to spend time to re-factor your app.
 
 ## <a name="state-management"></a>State Management
@@ -103,7 +104,9 @@ As the application grows, how do we know that a state change in one module will 
 ## <a name="program-tools"></a>Programs and Tools
 ### <a name="git"></a>GIT
 - If working in a team, consider using [git flow](https://github.com/petervanderdoes/gitflow-avh).
-
+- Consider using [Commitizen](https://github.com/commitizen/cz-cli) with [cz-conventional-changelog](https://www.npmjs.com/package/cz-conventional-changelog) to format properly every git commit and [validate commit msg](https://github.com/conventional-changelog/validate-commit-msg) to ensure validation.
+- Consider using [standard version](https://github.com/conventional-changelog/standard-version) for automatic changelog based on your commits.
+   
 ### <a name="webstorm"></a>Webstorm
 - Set code style for typescript:
     - {import} -> { import }
@@ -117,10 +120,14 @@ As the application grows, how do we know that a state change in one module will 
 ### <a name="angular"></a>Angular
 - [Official angular styleguide](https://angular.io/guide/styleguide).
 - [How does angular 2 change detection really work](http://blog.angular-university.io/how-does-angular-2-change-detection-really-work/)
-- [Angular 2 best practice](https://www.lucidchart.com/techblog/2016/05/04/angular-2-best-practices-change-detector-performance/)
+- [Why changedetection.OnPush is so important](https://blog.thoughtram.io/angular/2016/02/22/angular-2-change-detection-explained.html#whats-change-detection-anyways)
+- [Angular 2 best practices](https://www.lucidchart.com/techblog/2016/05/04/angular-2-best-practices-change-detector-performance/)
+
 
 ### <a name="javascript"></a>Javascript
 - [Avoid switch and lots of if else statements by using object literals](https://toddmotto.com/deprecating-the-switch-statement-for-object-literals/)
+- [Use flow instead of chain in lodash](https://medium.com/making-internets/why-using-chain-is-a-mistake-9bc1f80d51ba)
+- [Avoid the use of for statements](https://hackernoon.com/rethinking-javascript-death-of-the-for-loop-c431564c84a8)
 
 ### <a name="git"></a>GIT
 - [GIT flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)

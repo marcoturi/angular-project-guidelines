@@ -35,6 +35,8 @@
     "@types/jasminewd2": "ts2.4",
     "@types/node": "ts2.4",
     "codelyzer": "~3.1.2",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.14.3",
     "jasmine-core": "~2.7.0",
     "jasmine-spec-reporter": "~4.1.0",
@@ -47,6 +49,12 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.3.0",
     "tslint": "~5.5.0",
-    "typescript": "~2.4.2"
+    "typescript": "~2.4.2",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
