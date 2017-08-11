@@ -97,9 +97,9 @@ As the application grows, how do we know that a state change in one module will 
 ## <a name="libraries"></a>Libraries
 - Error logging: [Sentry](https://docs.sentry.io/clients/javascript/integrations/angular2/)
 - Database: [PouchDB](https://pouchdb.com/). Don't use localstorage as it can be deleted by OS to free memory.
-- Time and Dates: [MomentJs](http://momentjs.com/)
+- Time and Dates: [Date-fns](https://github.com/date-fns/date-fns) should be more performant than [MomentJs](http://momentjs.com/)
 - [Immutable-js](https://github.com/facebook/immutable-js) - Immutable Data Collections including Sequence, Range, Repeat, Map, OrderedMap, Set and a sparse Vector.
-- [Lodash](https://github.com/lodash/lodash) - A utility library delivering consistency, customization, performance, & extras.
+- [Lodash-es](https://github.com/lodash/lodash) - A utility library delivering consistency, customization, performance, & extras.
 
 ## <a name="program-tools"></a>Programs and Tools
 ### <a name="git"></a>GIT
