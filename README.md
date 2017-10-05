@@ -122,7 +122,7 @@ As the application grows, how do we know that a state change in one module will 
 - [How does angular 2 change detection really work](http://blog.angular-university.io/how-does-angular-2-change-detection-really-work/)
 - [Why changedetection.OnPush is so important](https://blog.thoughtram.io/angular/2016/02/22/angular-2-change-detection-explained.html#whats-change-detection-anyways)
 - [Angular 2 best practices](https://www.lucidchart.com/techblog/2016/05/04/angular-2-best-practices-change-detector-performance/)
-
+- [Pro tips for angular cli](https://medium.com/@tomastrajan/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81)
 
 ### <a name="javascript"></a>Javascript
 - [Avoid switch and lots of if else statements by using object literals](https://toddmotto.com/deprecating-the-switch-statement-for-object-literals/)
